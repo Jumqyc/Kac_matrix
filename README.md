@@ -48,6 +48,7 @@ Run from the command line:
 python kac_matrix.py [level]
 
 If no level is given, the default is 4.
+```
 
 ## Example:
 
