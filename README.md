@@ -52,7 +52,8 @@ If no level is given, the default is 4.
 
 ## Example:
 
-$ python kac.py 3
+``` python
+kac.py 3
 Kac matrix for level 3:
 ⎡         2                          ⎤
 ⎢ 2⋅c + 8⋅h  + 8⋅h         6⋅h    6⋅h⎥
@@ -62,7 +63,7 @@ Kac matrix for level 3:
 ⎢                                    ⎥
 ⎢                                3   ⎥
 ⎣    6⋅h              0        24⋅h   ⎦
-...
+```
 
 ## Performance
 The number of partitions grows rapidly (≈ p(N) ~ e^{π√(2N/3)} / 4N√3),
