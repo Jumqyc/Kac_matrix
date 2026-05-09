@@ -52,7 +52,7 @@ If no level is given, the default is 4.
 
 ## Example:
 
-$ python kac_matrix.py 3
+$ python kac.py 3
 Kac matrix for level 3:
 ⎡         2                          ⎤
 ⎢ 2⋅c + 8⋅h  + 8⋅h         6⋅h    6⋅h⎥
