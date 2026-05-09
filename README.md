@@ -68,7 +68,7 @@ String matrix (with '^' and no '*'):
 ```
 
 ## Performance
-The number of partitions grows rapidly (≈ p(N) ~ e^{π√(2N/3)} / 4N√3),
+The number of partitions grows rapidly (≈ $p(N) ~ e^{π√(2N/3)} / 4N√3$),
 so computation becomes expensive for N > 8–9. Memoization greatly
 reduces the number of recursive calls, but the exponential complexity
 remains. For higher levels you may need to add more optimisations or use
