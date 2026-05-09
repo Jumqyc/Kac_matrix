@@ -45,14 +45,14 @@ required.
 Run from the command line:
 
 ```bash
-python kac_matrix.py [level]
+python kac.py [level]
 ```
 
 If no level is given, the default is 4.
 
 ## Example:
 
-``` python
+```python
 kac.py 3
 Kac matrix for level 3:
 ⎡         2                          ⎤
